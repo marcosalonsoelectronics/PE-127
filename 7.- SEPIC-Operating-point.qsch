@@ -1,0 +1,10 @@
+ÿØÿÛ«schematic
+  «text (-450,3650) 1 7 0 0x1000000 -1 -1 "ï»¿.param L1=4.6Âµ r1=10m L2=4.6Âµ r2=10m Cs=10Âµ rs=10m C=47Âµ rc=10m R=1 io=0"»
+  «text (-450,3250) 1 7 0 0x1000000 -1 -1 "ï»¿.param Vi=4  D=0.45"»
+  «text (-400,4050) 1 7 1 0x1000000 -1 -1 "ï»¿.SEPIC - DC OPERATING POINT - THEORETICAL EQUATIONS"»
+  «text (-450,2800) 1 7 0 0x1000000 -1 -1 "ï»¿.param Vo= D*Vi/(  1 - D + (1-D)*r2/R + (D**2/(1-D))*r1/R   )"»
+  «text (-450,2400) 1 7 0 0x1000000 -1 -1 "ï»¿.param I2=Vo/R     I1= ( D/(1-D) )*Vo/R"»
+  «text (-450,2050) 1 7 0 0x1000000 -1 -1 "ï»¿.param Vs= Vi + r2*Vo/R - (D/(1-D))*r1*Vo/R"»
+  «text (1500,3250) 1 7 0 0x1000000 -1 -1 "ï»¿.options ListParam"»
+»
+
